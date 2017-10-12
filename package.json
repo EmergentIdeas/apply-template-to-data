@@ -1,0 +1,27 @@
+{
+  "name": "apply-template-to-data",
+  "version": "1.0.0",
+  "description": "Applies a tripartite template to data",
+  "main": "apply-template-to-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/EmergentIdeas/apply-template-to-data.git"
+  },
+  "bin": {
+	"apply-template-to-data": "./apply-template-to-data.js"
+  },
+  "keywords": [
+    "tripartite",
+    "template",
+    "json"
+  ],
+  "author": "Dan Kolz",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "tripartite": "^1.0.7"
+  }
+}
